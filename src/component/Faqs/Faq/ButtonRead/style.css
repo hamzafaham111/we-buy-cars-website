@@ -1,0 +1,37 @@
+.main-button{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-button >.readmore{
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #5ba505;
+    padding: 8px 15px;
+    border: 2px solid #5ba505;
+    outline: none!important;
+    font-family: "Open Sans", sans-serif;
+}
+.main-button >.submit{
+    transition: all 0.3s ease-in;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #5ba505;
+    padding: 8px 45px;
+    border: 2px solid #5ba505;
+    outline: none!important;
+    font-family: "Open Sans", sans-serif;
+}
+.main-button :hover{
+    display:block!important;
+    color: black!important;
+    background-color: #fff!important;
+    border: 2px solid black;
+}

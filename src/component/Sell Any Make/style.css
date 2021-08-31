@@ -1,0 +1,32 @@
+.s {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: var(--theme);
+}
+.row p {
+    margin-bottom: 25px;
+}
+p a {
+    color: #1f2731;
+    text-decoration: none;
+}
+p a:hover {
+    color: #1f2731;
+    text-decoration: none;
+}
+.imgsss{
+    display: block;
+    margin: auto;
+}
+/* car logo */
+.letters {
+    border-bottom: 1px solid #f76b40;
+    color: #f76b40;
+    font-size: 30px !important;
+    padding-bottom: 15px;
+    width: 100%;
+}
+.img-responsive {
+    height: 90px;
+}

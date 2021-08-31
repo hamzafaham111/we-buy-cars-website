@@ -1,0 +1,68 @@
+.Faqform{
+    padding: 60px 200px;
+    
+}
+.fom-div{
+    padding: 30px ;
+    box-shadow: 2px 5px 0px rgba(214,211,214,0.5);
+    background-color: #fff;
+}
+.label{
+    font-family: "Open Sans", sans-serif!important;
+    font-size: 14px!important;
+    font-weight: 400!important;
+    line-height: 23px!important;
+
+}
+.input-field{
+    font-family: "Open Sans", sans-serif!important;
+    font-size: 14px!important;
+    font-weight: 400!important;
+    line-height: 23px!important;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+   
+    color: #212529!important;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-bottom: 1px solid #EBEDF2;
+    border-radius: 0.25rem;
+    box-shadow: none!important;
+   
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+    border-left: none!important;
+    border-right: none!important;
+    border-top: none!important;
+
+}
+
+.submitBlock{
+    margin: auto;
+   
+} 
+.description{
+    /* border: none!important; */
+    background-color: transparent;
+    min-height: 100px;
+    border: 2px solid lighgray !important;
+}
+.main-body .description {
+    border: 1px solid #EBEDF2!important;
+    border-radius: 0.25rem;
+    /* border: 2px solid black !important; */
+}
+
+@media only screen and (max-width: 768px){
+    .Faqform{
+        padding: 60px 140px;
+        
+    }
+  }
+  @media only screen and (max-width: 575px){
+    .Faqform{
+        padding: 40px 40px;
+        
+    }
+  }

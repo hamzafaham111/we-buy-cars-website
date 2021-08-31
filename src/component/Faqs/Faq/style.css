@@ -1,0 +1,74 @@
+.scrapcar-modern-title {
+  float: left;
+  width: 100%;
+ 
+  margin: 0 0 30px;
+  text-transform: uppercase;
+  line-height: .8;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0 0 23px;
+}
+.scrapcar-modern-title:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  background-color: var(--theme);
+  height: 1px;
+}
+.scrapcar-modern-title:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  background-color: var(--theme);
+  bottom: 3px;
+  width: 80px;
+  height: 3px;
+}
+
+
+
+.faq{
+  padding:40px 110px 80px 110px ;
+}
+
+.fixers-heading {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.fixers-heading >[class^="flaticon-"]:before{
+  color: var(--theme) ;
+  margin-right: 5px;
+}
+
+.fixers-heading >h3{
+font-family: "Open Sans", sans-serif;
+color: #212529;
+text-align: left;
+display:inline-block;
+font-weight: 700;
+margin-bottom: 12px;
+ font-size: 18px; 
+ border-bottom: 2px solid var(--theme);
+ margin-bottom: 0;
+}
+@media only screen and (max-width: 768px){
+  .faq{
+    padding-left:60px!important ;
+    padding-right:60px!important ;
+    /* padding:40px 60px!important ; */
+  }
+}
+  @media only screen and (max-width: 575px){
+    .faq{
+      padding-left:20px!important ;
+      padding-right:20px!important ;
+      /* padding:40px 60px!important ; */
+    }
+  }
+
+

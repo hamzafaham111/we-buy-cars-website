@@ -1,0 +1,58 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 21/01/2021 13:38
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-roundabout:before { content: "\f100"; }
+.flaticon-notes:before { content: "\f101"; }
+.flaticon-multiple-users-silhouette:before { content: "\f102"; }
+.flaticon-right-arrow:before { content: "\f103"; }
+.flaticon-right-arrow-2:before { content: "\f104"; }
+.flaticon-coins:before { content: "\f105"; }
+.flaticon-sedan-car-front:before { content: "\f106"; }
+.flaticon-sports-car:before { content: "\f107"; }
+.flaticon-support:before { content: "\f108"; }
+    
+    $font-Flaticon-roundabout: "\f100";
+    $font-Flaticon-notes: "\f101";
+    $font-Flaticon-multiple-users-silhouette: "\f102";
+    $font-Flaticon-right-arrow: "\f103";
+    $font-Flaticon-right-arrow-2: "\f104";
+    $font-Flaticon-coins: "\f105";
+    $font-Flaticon-sedan-car-front: "\f106";
+    $font-Flaticon-sports-car: "\f107";
+    $font-Flaticon-support: "\f108";

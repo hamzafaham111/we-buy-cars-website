@@ -1,0 +1,371 @@
+.scrapcar-main-section {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.scrapcar-modernfull {
+    margin: 0 0 57px;
+}
+.scrapcar-fancy-title {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 67px;
+}
+.scrapcar-fancy-title h2 {
+    display: inline-block;
+    font-size: 35px;
+    margin: 0;
+    line-height: 26px;
+    position: relative;
+}
+.scrapcar-fancy-title h2:before {
+    content: '';
+    position: absolute;
+    left: -70px;
+    top: -4px;
+    height: 67px;
+    width: 3px;
+    border-left: 9px double var(--theme);
+}
+.scrapcar-fancy-title h2:after {
+    content: '';
+    position: absolute;
+    right: -64px;
+    top: -4px;
+    height: 67px;
+    width: 3px;
+    border-left: 9px double var(--theme);
+}
+.scrapcar-services, .scrapcar-services-text p {
+    float: left;
+    width: 100%;
+}
+.scrapcar-services-text h2 {
+    float: left;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.scrapcar-services-text h2 a{
+   color: var(--theme);
+}
+.scrapcar-services-text h2 a{
+   color: var(--theme);
+   text-decoration: none;
+}
+.scrapcar-services-text p {
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+.scrapcar-services-text p {
+    line-height: 24px;
+}
+.scrapcar-banner-text1 a {
+    margin-top: 20px;
+    color: #fff;
+    background-color: var(--theme);
+    height: 44px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid;
+}
+.scrapcar-banner-text1 a:hover {
+    margin-top: 20px;
+    color: var(--theme);
+    background-color: #fff;
+    transition: all 0.5s ease;
+    height: 44px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid;
+}
+@media screen and (max-width: 465px){
+    .scrapcar-fancy-title {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 0 0 47px;
+    }
+    .scrapcar-fancy-title h2 {
+        display: inline-block;
+        font-size: 24px;
+        margin: 0;
+        line-height: 30px;
+        position: relative;
+    }
+    .row p {
+        margin-bottom: 0px;
+    }
+   
+}
+
+/* conact form  */
+
+/* Sell my car */
+
+
+/* orylsdjfsdlkjflkjsdf */
+
+.scrapcar-main-section {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.scrapcar-service-listfull {
+    margin: 0 0 62px;
+}
+.scrapcar-fancy-title {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 67px;
+}
+.scrapcar-fancy-title span {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    width: 100%;
+    color: var(--theme);
+}
+
+.scrapcar-services ul li {
+    float: left;
+    list-style: none;
+    margin: 0 0 30px;
+}
+.scrapcar-services-modern.scrapcar-services-modernv2 i {
+    margin: 0 0 17px;
+    font-size: 18px;
+    color: var(--theme);
+}
+.flaticon-coins{
+    font-size: 55px!important;
+}
+.scrapcar-services-text h2 {
+    float: left;
+    margin-top: 39px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 8px;
+}
+@media screen and (max-width: 1224px){
+    .scrapcar-services-text h2 {
+        float: left;
+        margin-top: 3px;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}
+
+.flaticon-coins,.flaticon-notes,.flaticon-sedan-car-front,.flaticon-sports-car,.flaticon-roundabout,.flaticon-support[class*=" flaticon-"]:before {
+    font-family: Flaticon;
+    font-size: 55px!important;
+    font-style: normal;
+    margin-left: 20px;
+}
+.flaticon-coins,.flaticon-notes,.flaticon-sedan-car-front,.flaticon-sports-car,.flaticon-roundabout[class*=" flaticon-"]:before {
+    font-family: Flaticon;
+    font-size: 55px!important;
+    font-style: normal;
+    margin-left: 20px;
+}
+.flaticon-coins,.flaticon-notes,.flaticon-sedan-car-front,.flaticon-sports-car[class*=" flaticon-"]:before {
+    font-family: Flaticon;
+    font-size: 55px!important;
+    font-style: normal;
+    margin-left: 20px;
+}
+.flaticon-coins,.flaticon-notes,.flaticon-sedan-car-front[class*=" flaticon-"]:before {
+    font-family: Flaticon;
+    font-size: 55px!important;
+    font-style: normal;
+    margin-left: 20px;
+}
+.flaticon-coins,.flaticon-notes[class*=" flaticon-"]:before {
+    font-family: Flaticon;
+    font-size: 55px!important;
+    font-style: normal;
+    margin-left: 20px;
+}
+.flaticon-coins[class*=" flaticon-"]:before {
+    font-family: Flaticon;
+    font-size: 55px!important;
+    font-style: normal;
+    margin-left: 20px;
+}
+
+/* type of vichels  */
+
+.scrapcar-main-section {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.scrapcar-video-full {
+    margin: 0 0 91px;
+}
+.scrapcar-about-list1 {
+    padding: 21px 0 0;
+}
+.scrapcar-about-list1 ul, .scrapcar-about-list1 p, .scrapcar-about-list1, .scrapcar-video {
+    float: left;
+    width: 100%;
+}
+.scrapcar-about-list1 h2 {
+    float: left;
+    font-size: 35px;
+    margin: 0 0 26px;
+}
+.scrapcar-about-list1 p {
+    font-size: 16px;
+    margin: 0 0 30px;
+}
+.scrapcar-about-list1 ul, .scrapcar-about-list1 p, .scrapcar-about-list1, .scrapcar-video {
+    float: left;
+    width: 100%;
+}
+.scrapcar-about-list1 ul li {
+    float: left;
+    list-style: none;
+    margin-bottom: 7px;
+    font-weight: 700;
+    width: 50%;
+    font-size: 16px;
+    position: relative;
+    padding-left: 30px;
+}
+@media screen and (max-width: 556px){
+    .scrapcar-about-list1 ul li {
+        float: left;
+        list-style: none;
+        margin-bottom: 7px;
+        font-weight: 700;
+        width: 100%;
+        font-size: 16px;
+        position: relative;
+        padding-left: 30px;
+    } 
+    .scrapcar-services-modern.scrapcar-services-modernv2 i {
+        margin: 0px 10px 17px;
+        font-size: 18px;
+        color: var(--theme);
+    }
+}
+
+.scrapcar-about-list1 ul li:before {
+    content: "\f046";
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+    margin-right: 5px;
+    font-family: fontawesome;
+    color: var(--theme);
+}
+.scrapcar-about-list1 ul li a{
+    color: #222;
+
+}
+/* involved today */
+.scrapcar-main-section {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.scrapcar-involved-full {
+    background-image: url(../../../assets/involved-img.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 86px 0 89px;
+}
+.transpant-call-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+}
+.scrapcar-get-involved {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.scrapcar-get-involved h2 {
+    display: inline-block;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 13px;
+}
+.scrapcar-get-involved h2 small {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+}
+
+.scrapcar-get-involved h2 small:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    background-color: var(--theme);
+    bottom: 3px;
+    width: 100%;
+    height: 3px;
+}
+.scrapcar-get-involved p {
+    display: inline-block;
+    color: #fff;
+    font-size: 17px;
+    width: 82%;
+}
+.involved-social-icone, .involved-social-icone ul {
+    float: left;
+    width: 100%;
+}
+.involved-social-icone ul {
+    margin: 0 -3px;
+}
+.involved-social-icone ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 3px;
+    margin: 0 0 6px;
+}
+.involved-social-icone ul li a.facebook {
+    background-color: #306199;
+}
+.involved-social-icone ul li a {
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    padding: 7px 16px 7px 15px;
+}
+.involved-social-icone ul li a i {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+.involved-social-icone ul li a.twitter {
+    background-color: #26c4f1,
+}
+.quote{
+border:"solid black 2px",
+}

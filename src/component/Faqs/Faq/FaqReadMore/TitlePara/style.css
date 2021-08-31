@@ -1,0 +1,16 @@
+.ques-heading{
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #212529;
+
+}
+.ans-para{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #212529;
+    text-align: justify;
+}

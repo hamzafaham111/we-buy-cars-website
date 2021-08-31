@@ -1,0 +1,152 @@
+.scrapcar-banner-tr {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.scrapcar-banner-transparent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1f2731;
+    opacity: .4;
+}
+.scrapcar-banner-caption{
+    width: 100%;
+}
+.slick-slide {
+    display: none;
+    width: 100%;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.scrapcar-banner-image {
+    background: url(../../../assets/images/orange_car.jpg);
+    background-size: cover;
+    float: left;
+    width: 100%;
+    min-height: 600px;
+}
+.scrapcar-banner-images {
+    background: url(../../../assets/images/orange_car1.jpg);
+    background-size: cover;
+    float: left;
+    width: 100%;
+    min-height: 600px;
+}
+/* .scrapcar-banner-caption {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+} */
+.scrapcar-banner-text {
+    left: 0;
+    bottom: 70px;
+    /* margin: -37px 0 0; */
+    position: absolute;
+    width: 80%!important;
+    text-align: left;
+}
+.title-slider {
+ color: var(--theme);
+    font-size: 50px;
+}
+.scrapcar-banner-text p {
+    color: #fff;
+    display: inline-block;
+    font-size: 17px;
+    margin: 0 0 37px;
+}
+.scrapcar-banner-text .scrapcar-simple-btn {
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 13px 13px 12px 23px;
+    border: 1px solid;
+    margin: 2px;
+    background-color: var(--theme);
+    border-color: var(--theme);
+}
+.scrapcar-banner-text .scrapcar-simple-btn:hover {
+   
+    color: var(--theme);
+   text-decoration: none;
+    background-color: white;
+    transition: 0.5s all ease;
+
+}
+.scrapcar-banner-text .scrapcar-simple-btn i {
+    font-size: 15px;
+}
+.scrapcar-simple-btn i {
+    float: left;
+    font-size: 13px;
+    margin: 2px 9px 0 0;
+}
+@media screen and (max-width: 996px){
+    .title-slider {
+        color: var(--theme);
+           font-size: 45px;
+       }
+}
+
+@media screen and (max-width: 565px){
+    .title-slider {
+        color: var(--theme);
+           font-size: 30px;
+       }
+       .scrapcar-banner-image {
+        background: url(../../../assets/images/orange_car.jpg);
+        background-size: cover;
+        float: left;
+        width: 100%;
+        min-height: 500px;
+    }
+    .scrapcar-banner-images {
+        background: url(../../../assets/images/orange_car1.jpg);
+        background-size: cover;
+        float: left;
+        width: 100%;
+        min-height: 500px;
+    }
+    .scrapcar-banner-text{
+        padding: 0px 12px;
+    }
+}
+@media screen and (max-width: 456px){
+    .title-slider {
+        color: var(--theme);
+           font-size: 25px;
+       }
+       .scrapcar-banner-text p{
+        font-size: 14px;
+       }
+       .scrapcar-banner-image {
+        background: url(../../../assets/images/orange_car.jpg);
+        background-size: cover;
+        float: left;
+        width: 100%;
+        min-height: 400px;
+    }
+    .scrapcar-banner-images {
+        background: url(../../../assets/images/orange_car1.jpg);
+        background-size: cover;
+        float: left;
+        width: 100%;
+        min-height: 400px;
+    }
+    .scrapcar-banner-text {
+        left: 0;
+        bottom: 30px;
+        /* margin: -37px 0 0; */
+        position: absolute;
+        width: 90%!important;
+        text-align: left;
+    }
+}

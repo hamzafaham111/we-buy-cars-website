@@ -1,0 +1,186 @@
+
+.scrapcar-main-section {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.scrapcar-modernfull {
+    margin: 0 0 57px;
+}
+.scrapcar-fancy-title {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 67px;
+}
+.scrapcar-services, .scrapcar-services-text p {
+    float: left;
+    width: 100%;
+}
+.scrapcar-contact-form {
+    padding: 21px 0 0;
+    margin-bottom: 10px;
+}
+.text-center {
+    text-align: center;
+}
+.scrapcar-contact-form ul {
+    margin: 0 -15px;
+}
+.scrapcar-contact-form ul li {
+    float: left;
+    width: 50%;
+    margin: 0 0 30px;
+    padding: 0 15px;
+    list-style: none;
+    position: relative;
+}
+.scrapcar-services ul li {
+    float: left;
+    list-style: none;
+    margin: 0 0 30px;
+}
+li {
+    line-height: 28px;
+    list-style: inside none disc;
+}
+.scrapcar-contact-form ul li>label.title {
+    margin: 0 0 15px;
+    line-height: .7;
+}
+label {
+    color: #1f2731;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.scrapcar-contact-form input[type="text"] {
+    height: 41px;
+}
+.scrapcar-banner-text1 a {
+    margin-top: 20px;
+    color: #fff;
+    background-color: var(--theme);
+    height: 44px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid;
+}
+.scrapcar-services-modern ul li i {
+    float: left;
+    font-size: 13px;
+    color: #d4d4d4;
+    line-height: 1;
+    margin: 3px 0 0;
+}
+.scrapcar-contact-form ul li>i {
+    position: absolute;
+    right: 31px;
+    top: 42px;
+    color: #bbb;
+}
+.scrapcar-contact-form ul li>i:after {
+    content: '';
+    position: absolute;
+    left: -16px;
+    top: -3px;
+    height: 20px;
+    width: 1px;
+    background-color: #ddd;
+}
+.widget_location ul li:last-child, ul li .widget-location-select:last-child {
+    margin: 0;
+}
+.widget-location-select {
+    position: relative;
+}
+.widget-location-select {
+    margin: 0 0 20px;
+}
+.widget_location ul li, .widget_location input[type=text], .widget-location-select, .widget-location-select select {
+    float: left;
+    width: 100%;
+}
+/* .widget-location-select:before {
+    content: "\eb60";
+    font-family: icomoon;
+    position: absolute;
+    right: -4px;
+    top: 6px;
+    color: #323432;
+    background-color: var(--theme);
+    font-size: 16px;
+    color: #fff!important;
+    height: 28px;
+    width: 39px;
+    text-align: center;
+    pointer-events: none;
+} */
+.widget-location-select select {
+    font-size: 14px;
+    color: #666;
+    height: 41px;
+    background-color: transparent;
+    padding: 4px 30px 4px 14px;
+    border: 1px solid #ddd;
+}
+.widget-location-select option {
+    padding: 5px 15px;
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+
+}
+.scrapcar-contact-form ul li>label.submit-btn {
+    margin: 0;
+    float: left;
+    position: relative;
+}
+.scrapcar-contact-form input[type=submit] {
+    float: left;
+    border: 1px solid;
+    color: var(--theme);
+    font-weight: 700;
+    padding: 8px 52px 9px 19px;
+    background-color: transparent;
+}
+.scrapcar-contact-form label.submit-btn i {
+    position: absolute;
+    right: 19px;
+    color: var(--theme);
+    top: 14px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.automechanic-icon {
+    font-family: icomoon!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.para{
+    font-weight: bold;
+    margin-top: 22px;
+    color: #f76b40;
+    font-size: 22px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+.App{
+    overflow-x: hidden;
+    width: 100%;
+}/* 
+.submit-btn:hover , .flaticon-right-arrow{
+    transform: rotateY(180deg);
+    transition: .5s;
+    
+} */
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(red, yellow);
+    border-radius: 28px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-image: linear-gradient(white, black);
+    border-radius: 28px;
+}
+.hover:hover .automechanic-icon {
+    transform: rotateY(180deg);
+    transition: .5s;
+}
+.bread-curamb{
+    margin-top: 105px;
+}
+@media (min-width: 768px){
+
+.container {
+    width: 80vw!important;
+}
+}
+@media (max-width: 568px){
+
+.bread-curamb{
+    margin-top: 76px;
+}
+}
+@media (max-width: 536px){
+
+.bread-curamb{
+    margin-top: 46px;
+}
+}
+@media (max-width: 467px){
+
+.bread-curamb{
+    margin-top: 16px;
+}
+}
+@media (max-width: 367px){
+
+.bread-curamb{
+    margin-top: 16px;
+  
+}
+}

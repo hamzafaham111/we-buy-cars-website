@@ -1,0 +1,116 @@
+.scrapcar-top-strip {
+    background-color: #1f2731;
+    text-align: center;
+    width: 100%;
+}
+.scrapcar-top-strip-info {
+    float: left;
+    padding: 8px 0 0;
+}
+.scrapcar-top-strip-info ul {
+    float: left;
+    width: 100%;
+}
+ul {
+    margin-bottom: 0;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.scrapcar-top-strip-info ul li {
+    float: left;
+    list-style: none;
+    padding-right: 47px;
+    position: relative;
+}
+.scrapcar-top-strip-info ul li:after {
+    content: '';
+    position: absolute;
+    right: 14px;
+    top: 7px;
+    width: 20px;
+    height: 1px;
+    background-color: var(--theme);
+}
+/* li {
+    line-height: 28px;
+    list-style: inside none disc;
+} */
+.scrapcar-top-strip-info ul li a {
+    float: left;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1;
+}
+.scrapcar-right-section {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+.scrapcar-right-section  a {
+    float: left;
+    color: #ffffff!important;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 6px;
+    
+}
+@media only screen and (max-width: 565px){
+    .scrapcar-top-strip-info ul li:after {
+       display: none;
+    }
+    .scrapcar-right-section{
+        display: none;
+    }
+    .scrapcar-top-strip-info {
+        width: 100%;
+    }
+  .scrapcar-top-strip-info ul {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+  .scrapcar-top-strip-info ul li {
+    float: left;
+    list-style: none;
+    padding-right: 15px;
+    position: relative;
+}
+
+.scrapcar-right-section {
+        width: 30%;
+        justify-content: center;
+    display: flex;
+    align-items: center;
+}
+}
+@media only screen and (max-width: 405px){
+.scrapcar-top-strip-info ul {
+    width: 100%;
+    margin: 0px;
+    flex-direction: column;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+}
+.scrapcar-top-strip-info {
+    float: left;
+    padding: 0px 0 0;
+}
+.scrapcar-top-strip-info ul li {
+    float: left;
+    list-style: none;
+    padding: 2px 0px;
+    position: relative;
+}
+.scrapcar-right-section a{
+      margin-left: 22px;
+  }
+}

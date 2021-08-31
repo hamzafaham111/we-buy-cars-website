@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box  ;
+    outline: none;
+  
+    
+}
+
+:root{
+    --theme:#f76b40;
+}
+.theme{
+    color: var(--theme);
+}
+.bg-theme{
+    background-color: var(--theme);
+}
+/* breadCrumb */
+.scrapcar-subheader {
+    float: left;
+    width: 100%;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    
+    height: 100px;
+    color: #fff;
+    background-color: #363d46;
+    /* background: url(../../public/extra-images/banner-img2.jpg); */
+    position: relative;
+}
+.scrapcar-subheader-wrap h1 {
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+   
+    margin: 0;
+    line-height: 1;
+}
+.scrapcar-subheader-wrap {
+    float: left;
+    width: 100%;
+    padding: 42px 0 40px;
+}
+.scrapcar-breadcrumb {
+    float: right;
+    list-style: none;
+    padding: 3px 0 0;
+}
+.scrapcar-breadcrumb li:first-child {
+    padding-left: 0;
+}
+.scrapcar-breadcrumb li {
+    list-style: none;
+    float: left;
+    color: #fff;
+    padding: 0 15px;
+    position: relative;
+}
+.scrapcar-breadcrumb li a {
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.scrapcar-breadcrumb li:last-child {
+    padding: 2px 0 0 15px;
+    color: var(--theme);
+}
+
+
+
+.scrapcar-main-section {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.scrapcar-about-gallery-wrap {
+    margin-bottom: 95px;
+}
+.scrapcar-aboutus {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 18px 0 0;
+}
+.scrapcar-aboutus h3 {
+    float: left;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0 0 35px;
+}
+.scrapcar-aboutus h3:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: var(--theme);
+}
+.scrapcar-aboutus span {
+    float: left;
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 26px;
+}
+.scrapcar-aboutus p {
+    float: left;
+    line-height: 26px;
+    margin-bottom: 23px;
+}
+.scrapcar-aboutus .scrapcar-simple-btn {
+    float: left;
+    color: #fff;
+    background-color: var(--theme);
+    border: 1px solid var(--theme);
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 13px 29px 12px 23px;
+}
+.scrapcar-aboutus .scrapcar-simple-btn:hover {
+    float: left;
+    color: var(--theme);
+    background-color: #fff;
+    border: 1px solid var(--theme);
+    transition: .5s;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 13px 29px 12px 23px;
+}
+.scrapcar-aboutus .scrapcar-simple-btn i {
+    float: left;
+    font-size: 15px;
+    margin: 2px 9px 0 0;
+}
+
+.scrapcar-simple-btn i {
+    float: left;
+    font-size: 13px;
+    margin: 2px 9px 0 0;
+}
+.automechanic-icon {
+    font-family: fontawesome;
+    /* speak: none; */
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.scrapcar-services, .scrapcar-services-text p {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 969px){
+    .scrapcar-aboutus .scrapcar-simple-btn {
+        float: left;
+        color: #fff;
+        background-color: var(--theme);
+        border: 1px solid var(--theme);
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 12px 0;
+        padding: 10px 29px 12px 23px;
+    }
+}
+@media screen and (max-width: 565px){
+    .scrapcar-services ul li {
+        float: left;
+        list-style: none;
+        width: 100%;
+        margin: 0 0 30px;
+    }
+    .scrapcar-modernfull {
+        margin: 0 0 0px;
+    }
+    
+}
+@media screen and (max-width: 465px){
+    .scrapcar-aboutus h3 {
+        float: left;
+        width: 100%;
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: uppercase;
+        position: relative;
+        margin: 0 0 12px;
+    }
+    .scrapcar-aboutus .scrapcar-simple-btn {
+        float: left;
+        color: #fff;
+        background-color: var(--theme);
+        border: 1px solid var(--theme);
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 12px 0;
+        padding: 10px 29px 12px 23px;
+    }
+}
